@@ -1,10 +1,11 @@
 import './App.css'
+import { Head } from './components/Head/Head'
 
 function App() {
   return (
     <>
       <div className='player-container'>
-        <h1>Music Player</h1>
+        <Head />
       </div>
     </>
   )
