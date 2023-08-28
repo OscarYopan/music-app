@@ -5,7 +5,7 @@ import './Body.css'
 
 export const Body = () => {
   return (
-    <div>
+    <div className='body-container'>
       <AnimationContainer />
       <MusicList />
     </div>
