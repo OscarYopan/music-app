@@ -1,6 +1,5 @@
 .player-container {
   background-color: var(--zaffre);
-  height: 500px;
   width: 700px;
   border-radius: 20px;
 }

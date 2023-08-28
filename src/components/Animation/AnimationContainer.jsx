@@ -2,6 +2,8 @@ import './AnimationContainer.css'
 
 export const AnimationContainer = () => {
   return (
-    <div>Animation</div>
+    <div className='image-container'>
+      <img src="" alt="" />
+    </div>
   )
 }

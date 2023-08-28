@@ -3,9 +3,13 @@ import './MusicList.css'
 export const MusicList = () => {
   return (
     <div>
-      list
-
-    </div>
-    
+      <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor</li>
+      </ul>
+    </div>    
   )
 }
