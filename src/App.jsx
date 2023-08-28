@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Heloo World</h1>
+      <div className='player-container'>
+        <h1>Music Player</h1>
+      </div>
     </>
   )
 }
