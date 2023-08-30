@@ -6,8 +6,13 @@
 }
 
 .music-list ul li {
+  display: flex;
+  align-items: center;
+  align-items: left;
   list-style-type: none;
   margin-bottom: 10px;
+  color: var(--gray);
+  font-size: 18px;
 }
 
 .music-list button {
@@ -15,4 +20,10 @@
   margin-left: 10px;
   border: none;
   cursor: pointer;
+  background-color: var(--gray);
+  padding: 5px;
+}
+
+.music-list svg {
+  font-size: 25px;
 }

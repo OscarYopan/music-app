@@ -2,6 +2,12 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 20px;
+}
+
+.Controls-container svg {
+  height: 30px;
+  margin-right: 10px;
+  fill: var(--neon-blue);
 }
