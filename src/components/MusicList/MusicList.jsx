@@ -2,13 +2,14 @@ import './MusicList.css'
 
 export const MusicList = () => {
   return (
-    <div>
+    <div className='music-list'>
       <ul>
-        <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
-        <li>Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
+        <li>Lorem - Lorem ipsum dolor</li>
       </ul>
     </div>    
   )

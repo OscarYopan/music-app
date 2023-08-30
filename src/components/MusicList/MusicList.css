@@ -1,0 +1,7 @@
+.music-list {
+  height: 200px;
+}
+
+.music-list ul li {
+  list-style-type: none;
+}

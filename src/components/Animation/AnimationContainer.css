@@ -1,8 +1,9 @@
 .image-container {
   width: 300px;
   background-color: var(--rose);
+  clip-path: circle();
 }
 
 img {
-  height: 250px;
+  height: 150px;
 }
