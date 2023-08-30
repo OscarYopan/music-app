@@ -1,10 +1,18 @@
 .music-list {
-  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 20px;
 }
 
 .music-list ul li {
   list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.music-list button {
+  background-color: transparent;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
 }
