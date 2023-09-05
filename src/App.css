@@ -5,12 +5,25 @@
 
 
 .btn {
+  background: radial-gradient(var(--zaffre), var(--palatinate-blue));
+  cursor: pointer;
   border: none;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+
+.btn:hover {
+  background: radial-gradient(var(--rose), var(--fandango));
+}
+
+
+.btn:active {
+  transform: scale(0.94);
 }
 
 .btn svg {
-  height: 5px;
+  height: 10px;
+  fill: var(--gray);
 }
