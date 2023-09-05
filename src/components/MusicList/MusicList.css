@@ -12,8 +12,9 @@
   list-style-type: none;
   margin-bottom: 10px;
   color: var(--gray);
-  font-size: 18px;
-  border: 1px solid var(--gray);
+  font-size: 14px;
+  position: relative;
+  margin-right: 20px;
 }
 
 .music-list button {
@@ -25,9 +26,12 @@
   border-radius: 50%;
   cursor: pointer;
   background-color: var(--gray);
-  padding: 10px;
+  padding: 5px;
+  position: absolute;
+  top: -10;
+  right: -40px;
 }
 
 .music-list svg {
-  font-size: 25px;
+  font-size: 10px;
 }
