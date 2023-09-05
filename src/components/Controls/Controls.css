@@ -5,9 +5,3 @@
   justify-content: center;
   padding-bottom: 20px;
 }
-
-.Controls-container svg {
-  height: 30px;
-  margin-right: 10px;
-  fill: var(--neon-blue);
-}
