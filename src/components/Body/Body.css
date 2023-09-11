@@ -1,8 +1,7 @@
 .body-container {
   background-color: blue;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* margin: 0 40px 20px 40px; */
 }

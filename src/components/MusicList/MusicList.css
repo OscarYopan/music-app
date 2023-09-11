@@ -15,23 +15,21 @@
   list-style-type: none;
   margin: 5px 0;
   color: var(--gray);
-  font-size: 14px;
   position: relative;
 }
 
-.music-list h5 {
+.music-artist {
   font-size: 14px;
   font-weight: bold;
 }
 
-.usic-title {
+.music-title {
   font-size: 12px;
 }
 
 .music-pic img {
   height: 40px;
   margin-right: 10px;
-  clip-path: view-box;
 }
 
 .music-info {
