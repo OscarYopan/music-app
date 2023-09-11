@@ -1,14 +1,17 @@
 import './App.css'
-import { Body } from './components/Body/Body'
 import { Controls } from './components/Controls/Controls'
 import { Head } from './components/Head/Head'
+import { AnimationContainer } from './components/Animation/AnimationContainer'
+import { MusicList } from './components/MusicList/MusicList.jsx'
+
 
 function App() {
   return (
     <>
       <div className='player-container'>
         <Head />
-        <Body />
+        <AnimationContainer />
+        <MusicList />
         <Controls />
       </div>
     </>
