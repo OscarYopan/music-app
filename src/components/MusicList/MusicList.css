@@ -3,11 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 20px;
 }
 
 .music-list ul li {
-  width: 400px;
+  width: 100%;
   background-color: blueviolet;
   display: flex;
   align-items: center;

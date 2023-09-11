@@ -1,4 +1,5 @@
 .player-container {
+  max-width: 500px;
   background-color: var(--zaffre);
   border-radius: 20px;
 }
