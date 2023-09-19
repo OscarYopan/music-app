@@ -44,6 +44,39 @@ export const MusicList = () => {
           </div>
           <span className='music-time'>5:25</span>
         </li>
+
+        <li>
+          <div className='music-pic'>
+            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+          </div>
+          <div className='music-info'>
+            <h5 className='music-artist'>Engenheiros do Hawaii</h5>
+            <p className='music-title'>Exercito de um Homem Só</p>
+          </div>
+          <span className='music-time'>5:25</span>
+        </li>
+
+        <li>
+          <div className='music-pic'>
+            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+          </div>
+          <div className='music-info'>
+            <h5 className='music-artist'>Engenheiros do Hawaii</h5>
+            <p className='music-title'>Exercito de um Homem Só</p>
+          </div>
+          <span className='music-time'>5:25</span>
+        </li>
+
+        <li>
+          <div className='music-pic'>
+            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+          </div>
+          <div className='music-info'>
+            <h5 className='music-artist'>Engenheiros do Hawaii</h5>
+            <p className='music-title'>Exercito de um Homem Só</p>
+          </div>
+          <span className='music-time'>5:25</span>
+        </li>
       </ul>
     </div>    
   )
