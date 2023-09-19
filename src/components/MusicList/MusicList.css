@@ -12,7 +12,6 @@
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-  margin: 5px 0;
   color: var(--gray);
   position: relative;
 }
@@ -24,6 +23,7 @@
 
 .music-title {
   font-size: 12px;
+  width: 200px;
 }
 
 .music-pic img {
