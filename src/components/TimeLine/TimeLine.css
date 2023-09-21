@@ -2,4 +2,31 @@
   background-color: blueviolet;
   height: 30px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background-color: var(--gray);
+  height: 5px;
+  width: 70%;
+  border-radius: 2.5px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.timer {
+  background-color: var(--vivid-sky-blue);
+  height: 15px;
+  width: 4px;
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  border-radius: 2px;
+}
+
+p {
+  font-size: 10px;
+  color: var(--white);
 }
