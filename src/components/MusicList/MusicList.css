@@ -1,5 +1,4 @@
 .music-list {
-  background-color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +8,6 @@
 
 .music-list ul li {
   width: 100%;
-  background-color: blueviolet;
   display: flex;
   align-items: center;
   justify-content: space-between;
