@@ -4,6 +4,7 @@
   justify-content: center;
   max-height: 200px;
   overflow-y: auto;
+  padding-bottom: 20px;
 }
 
 .music-list ul li {

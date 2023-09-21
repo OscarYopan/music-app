@@ -11,8 +11,8 @@ function App() {
       <div className='player-container'>
         <Head />
         <AnimationContainer />
-        <MusicList />
         <Controls />
+        <MusicList />
       </div>
     </>
   )

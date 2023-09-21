@@ -11,6 +11,16 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 20px;
+  fill: var(--vivid-sky-blue);
+}
+
+.icon:hover {
+  fill: var(--white);
+}
+
+.icon:active {
+  transform: scale(1.2);
 }
 
 h1 {
