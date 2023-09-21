@@ -1,5 +1,4 @@
 .timeline {
-  background-color: blueviolet;
   height: 30px;
   width: 100%;
   display: flex;
@@ -10,10 +9,21 @@
 .line {
   background-color: var(--gray);
   height: 5px;
-  width: 70%;
+  width: 200px;
   border-radius: 2.5px;
   margin: 0 5px;
   position: relative;
+}
+
+.line::before {
+  content: '';
+  background-color: var(--vivid-sky-blue);
+  height: 5px;
+  border-radius: 2.5px;
+  margin: 0 5px;
+  z-index: 10;
+  position: absolute;
+  animation: LineGrowth 6s linear infinite;
 }
 
 .timer {
@@ -22,11 +32,31 @@
   width: 4px;
   position: absolute;
   top: -5px;
-  left: 30px;
   border-radius: 2px;
+  animation: timerAdvance 6s linear infinite;
 }
 
 p {
   font-size: 10px;
   color: var(--white);
+}
+
+@keyframes timerAdvance {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 200px;
+  }
+}
+
+@keyframes LineGrowth {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+  }
 }
