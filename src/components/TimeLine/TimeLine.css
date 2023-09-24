@@ -28,38 +28,3 @@
   animation: LineGrowth 45s linear infinite;
 }
 
-.timer {
-  cursor: pointer;
-  background-color: var(--vivid-sky-blue);
-  height: 15px;
-  width: 15px;
-  position: absolute;
-  top: -5px;
-  border-radius: 50%;
-  animation: timerAdvance 45s linear infinite;
-}
-
-p {
-  font-size: 10px;
-  color: var(--white);
-}
-
-@keyframes timerAdvance {
-  0% {
-    left: 0;
-  }
-
-  100% {
-    left: 200px;
-  }
-}
-
-@keyframes LineGrowth {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 200px;
-  }
-}
