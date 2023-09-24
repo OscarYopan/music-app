@@ -6,21 +6,3 @@
   padding: 10px 0;
 }
 
-.play-pause {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.play {
-  position: absolute;
-}
-
-.pause {
-  position: absolute;
-}
-
-.invisible {
-  opa
-}
