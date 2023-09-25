@@ -26,3 +26,8 @@
 h1 {
   color: var(--white);
 }
+
+i {
+  font-size: 25px;
+  color: pink;
+}
