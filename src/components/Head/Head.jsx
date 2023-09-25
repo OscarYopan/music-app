@@ -8,10 +8,6 @@ export const Head = () => {
       </div>
 
       <div className='icon'>
-        <i className="fa-solid fa-cloud"></i>
-      </div>
-
-      <div className='icon'>
         <i className="fa-solid fa-book"></i>
       </div>
 

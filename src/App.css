@@ -1,6 +1,9 @@
 .player-container {
+  height: 600px;
+  width: 340px;
   max-width: 500px;
   background-color: var(--zaffre);
+  border: 3px black solid;
   border-radius: 15px;
 }
 

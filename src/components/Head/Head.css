@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  padding: 10px 0;
 }
 
 .icon {
@@ -12,20 +11,19 @@
   justify-content: center;
   cursor: pointer;
   font-size: 20px;
-  fill: var(--vivid-sky-blue);
+  height: 40px;
+  width: 25%;
 }
 
 .icon:hover {
-  fill: var(--white);
+  color: lightsalmon;
+  background-color: blueviolet;
 }
 
 .icon:active {
-  transform: scale(1.1);
+  color: brown;
 }
 
-h1 {
-  color: var(--white);
-}
 
 i {
   font-size: 25px;
