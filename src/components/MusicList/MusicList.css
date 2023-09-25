@@ -8,6 +8,7 @@
 }
 
 .music-list ul li {
+  background-color: blueviolet;
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -15,11 +16,11 @@
   justify-content: space-between;
   list-style-type: none;
   color: var(--gray);
-  position: relative;
+  margin-bottom: 5px;
 }
 
 .music-artist {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -32,7 +33,7 @@
   height: 40px;
   width: 40px;
   margin-right: 10px;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .music-info {
