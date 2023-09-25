@@ -1,9 +1,9 @@
 import './App.css'
-import { Controls } from './components/Controls/Controls'
+// import { Controls } from './components/Controls/Controls'
 import { Head } from './components/Head/Head'
-import { AnimationContainer } from './components/Animation/AnimationContainer'
-import { MusicList } from './components/MusicList/MusicList.jsx'
-import { TimeLine } from './components/TimeLine/TimeLine'
+// import { AnimationContainer } from './components/Animation/AnimationContainer'
+// import { MusicList } from './components/MusicList/MusicList.jsx'
+// import { TimeLine } from './components/TimeLine/TimeLine'
 
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
     <>
       <div className='player-container'>
         <Head />
-        <AnimationContainer />
+        {/* <AnimationContainer />
         <TimeLine />
         <Controls />
-        <MusicList />
+        <MusicList /> */}
       </div>
     </>
   )
