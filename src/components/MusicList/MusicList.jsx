@@ -6,7 +6,7 @@ export const MusicList = () => {
       <ul>
         <li>
           <div className='music-pic'>
-            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+            <img src="https://akamai.sscdn.co/letras/360x360/albuns/3/e/5/0/59491441052487.jpg" alt="Album Cover" />
           </div>
           <div className='music-info'>
             <p className='music-title'>Exercito de um Homem Só</p>
@@ -17,7 +17,7 @@ export const MusicList = () => {
 
         <li>
           <div className='music-pic'>
-            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+            <img src="https://akamai.sscdn.co/letras/360x360/albuns/b/c/5/e/482591454679181.jpg" alt="Album Cover" />
           </div>
           <div className='music-info'>
             <p className='music-title'>Da Janela</p>
@@ -28,7 +28,7 @@ export const MusicList = () => {
 
         <li>
           <div className='music-pic'>
-            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+            <img src="https://akamai.sscdn.co/letras/360x360/albuns/9/7/8/6/952561598625243.jpg" alt="Album Cover" />
           </div>
           <div className='music-info'>
             <p className='music-title'>Love of my life</p>
@@ -39,7 +39,7 @@ export const MusicList = () => {
 
         <li>
           <div className='music-pic'>
-            <img src="https://images.unsplash.com/photo-1606403444347-fdd6b74492d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Album Cover" />
+            <img src="https://akamai.sscdn.co/letras/360x360/albuns/1/f/9/4/81331441461612.jpg" alt="Album Cover" />
           </div>
           <div className='music-info'>
             <p className='music-title'>Envelheço na Cidade</p>
