@@ -12,7 +12,7 @@ export const Home = () => {
       </div>
       <button>
         <i className="fa-solid fa-play"></i>
-        <i className="fa-solid fa-pause"></i>
+        {/* <i className="fa-solid fa-pause"></i> */}
       </button>
     </div>
   )

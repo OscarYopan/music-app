@@ -29,3 +29,26 @@ h3 {
 h4 {
   color: white;
 }
+
+.home-container button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+  right: 15px;
+}
+
+.home-container button i{
+  color: lightblue;
+}
+
+.home-container button:hover {
+  background-color: blueviolet;
+}
