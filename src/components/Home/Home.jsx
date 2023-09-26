@@ -1,4 +1,5 @@
 import './Home.css'
+import { TimeLine } from '../TimeLine/TimeLine'
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
         <i className="fa-solid fa-play"></i>
         {/* <i className="fa-solid fa-pause"></i> */}
       </button>
+      <TimeLine />
     </div>
   )
 }
