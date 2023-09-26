@@ -6,6 +6,7 @@
   border: 3px black solid;
   border-radius: 10px;
   position: relative;
+  z-index: -100;
 }
 
 
