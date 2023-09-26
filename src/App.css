@@ -4,7 +4,8 @@
   max-width: 500px;
   background-color: var(--zaffre);
   border: 3px black solid;
-  border-radius: 15px;
+  border-radius: 10px;
+  position: relative;
 }
 
 
@@ -25,9 +26,4 @@
 
 .btn:active {
   transform: scale(0.94);
-}
-
-.btn svg {
-  height: 10px;
-  fill: var(--gray);
 }
