@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='player-container'>
         <Head />
-        {/* <Home /> */}
+        <Home />
       </div>
     </>
   )
