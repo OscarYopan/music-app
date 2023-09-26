@@ -3,10 +3,9 @@
   width: 340px;
   max-width: 500px;
   background-color: var(--zaffre);
-  border: 3px black solid;
+  border: 4px black solid;
   border-radius: 10px;
   position: relative;
-  z-index: -100;
 }
 
 
