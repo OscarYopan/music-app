@@ -15,9 +15,9 @@ export const Head = () => {
         <i className="fa-solid fa-magnifying-glass"></i>
       </div>
 
-      <div className='icon'>
+      {/* <div className='icon'>
         <i className="fa-solid fa-gear"></i>
-      </div>
+      </div> */}
     </div>
   )
 }
