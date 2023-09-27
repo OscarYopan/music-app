@@ -1,18 +1,36 @@
+// import { Home } from '../Home/Home'
 import './Head.css'
 
 export const Head = () => {
-  function openHome() {
-    // <Home />
-  }
+  const [cartShow, setCartShow] = useState(false);
+  const [favShow, setFavtShow] = useState(false);
 
+  const handleClickCart = () => {
+    setCartShow(current => !current);
+  };
+
+  const handleClickFav = () => {
+    setFavtShow(current => !current);
+  };
   return (
     <div className='head'>
-      <div className='icon' onClick={openHome}>
+      <div 
+        className='icon' 
+        onClick={handleClickFav}
+        onMouseEnter={handleClickFav}
+        onMouseLeave={handleClickFav}
+      >
         <i className="fa-solid fa-house"></i>
+        {favShow && <Favorites />}
       </div>
 
-      <div className='icon'>
+      <div 
+        className='icon'
+        onMouseEnter={handleClickCart}
+        onMouseLeave={handleClickCart}
+      >
         <i className="fa-solid fa-book"></i>
+        {cartShow && <Cart />}
       </div>
 
       <div className='icon'>

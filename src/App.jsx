@@ -1,6 +1,6 @@
 import './App.css'
 import { Head } from './components/Head/Head'
-import { Home } from './components/Home/Home'
+// import { Home } from './components/Home/Home'
 
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
     <>
       <div className='player-container'>
         <Head />
-        <Home />
       </div>
     </>
   )

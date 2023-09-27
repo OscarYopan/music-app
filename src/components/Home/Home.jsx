@@ -1,5 +1,5 @@
 import './Home.css'
-import { TimeLine } from '../TimeLine/TimeLine'
+// import { TimeLine } from '../TimeLine/TimeLine'
 
 export const Home = () => {
   return (
