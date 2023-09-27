@@ -43,3 +43,11 @@
 .music-time {
   font-size: 12px;
 }
+
+.prov-list {
+  background: url('https://images.unsplash.com/photo-1694803046426-36fcd9adce21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
