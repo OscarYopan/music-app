@@ -31,6 +31,8 @@ function App() {
           <div
             className='icon'
             onClick={handleClickHome}
+            onMouseEnter={handleClickHome}
+            onMouseLeave={handleClickHome}
           >
             <i className="fa-solid fa-house"></i>
           </div>
@@ -38,6 +40,8 @@ function App() {
           <div
             className='icon'
             onClick={handleClickLib}
+            onMouseEnter={handleClickLib}
+            onMouseLeave={handleClickLib}
           >
             <i className="fa-solid fa-book"></i>
           </div>
@@ -45,11 +49,14 @@ function App() {
           <div 
             className='icon'
             onClick={handleClickSearch}
+            onMouseEnter={handleClickSearch}
+            onMouseLeave={handleClickSearch}
           >
             <i className="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
-
+         
+        {/* <Home /> */}
         {homeShow && <Home />}
         {libShow && <MusicList />}
         {searchShow && <Controls />}
