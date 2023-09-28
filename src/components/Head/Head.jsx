@@ -1,36 +1,38 @@
-// import { Home } from '../Home/Home'
+import { useState } from 'react';
+import { Home } from '../Home/Home'
 import './Head.css'
 
 export const Head = () => {
-  const [cartShow, setCartShow] = useState(false);
-  const [favShow, setFavtShow] = useState(false);
+  const [homeShow, setHomeShow] = useState(false);
+  // const [favShow, setFavtShow] = useState(false);
 
-  const handleClickCart = () => {
-    setCartShow(current => !current);
+  const handleClickHome = () => {
+    setHomeShow(current => !current);
   };
 
-  const handleClickFav = () => {
-    setFavtShow(current => !current);
-  };
+  // const handleClickFav = () => {
+  //   setFavtShow(current => !current);
+  // };
+
   return (
     <div className='head'>
-      <div 
-        className='icon' 
-        onClick={handleClickFav}
-        onMouseEnter={handleClickFav}
-        onMouseLeave={handleClickFav}
+      <div
+        className='icon'
+        onClick={handleClickHome}
+        // onMouseEnter={handleClickHome}
+        // onMouseLeave={handleClickHome}
       >
         <i className="fa-solid fa-house"></i>
-        {favShow && <Favorites />}
+        {homeShow && <Home />}
       </div>
 
-      <div 
+      <div
         className='icon'
-        onMouseEnter={handleClickCart}
-        onMouseLeave={handleClickCart}
+        // onMouseEnter={handleClickCart}
+        // onMouseLeave={handleClickCart}
       >
         <i className="fa-solid fa-book"></i>
-        {cartShow && <Cart />}
+        {/* {cartShow && <Cart />} */}
       </div>
 
       <div className='icon'>
