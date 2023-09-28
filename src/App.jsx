@@ -1,19 +1,21 @@
 import './App.css'
 import './components/Head/Head.css'
 import { useState } from 'react';
-import { Home } from './components/Home/Home'
+import { Home } from './components/Home/Home.jsx'
+import { MusicList } from './components/MusicList/MusicList.jsx'
+
 
 function App() {
   const [homeShow, setHomeShow] = useState(false);
-  // const [favShow, setFavtShow] = useState(false);
+  const [libShow, setLibtShow] = useState(false);
 
   const handleClickHome = () => {
     setHomeShow(current => !current);
   };
 
-  // const handleClickFav = () => {
-  //   setFavtShow(current => !current);
-  // };
+  const handleClickLib = () => {
+    setLibtShow(current => !current);
+  };
   return (
     <>
       <div className='player-container'>
@@ -24,13 +26,12 @@ function App() {
           >
             <i className="fa-solid fa-house"></i>
           </div>
+
           <div
             className='icon'
-            // onMouseEnter={handleClickCart}
-            // onMouseLeave={handleClickCart}
+            onClick={handleClickLib}
           >
             <i className="fa-solid fa-book"></i>
-            {/* {cartShow && <Cart />} */}
           </div>
 
           <div className='icon'>
@@ -39,7 +40,7 @@ function App() {
         </div>
 
         {homeShow && <Home />}
-
+        {libShow && <MusicList />}
         
       </div>
     </>
