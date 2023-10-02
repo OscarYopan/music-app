@@ -38,3 +38,44 @@
   top: 0;
   left: 0;
 }
+
+.head {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.head .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  height: 100%;
+  width: 33.33%;
+}
+
+.head .icon:hover {
+  color: lightsalmon;
+  background-color: blueviolet;
+}
+
+.head .icon:active {
+  color: brown;
+}
+
+.head i {
+  font-size: 25px;
+  color: pink;
+}
+
+.head p {
+  font-size: 14px;
+}
