@@ -30,7 +30,7 @@ function App() {
         <div className='head'>
           <div
             className='icon'
-            // onClick={handleClickHome}
+            onClick={handleClickHome}
             onMouseEnter={handleClickHome}
             onMouseLeave={handleClickHome}
           >
@@ -55,6 +55,10 @@ function App() {
             <i className="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
+
+        {/* <div className='prov-image'> 
+          See CSS
+        </div> */}
          
         {homeShow && <Home />}
         {libShow && <MusicList />}

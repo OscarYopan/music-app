@@ -22,8 +22,6 @@ export const Home = () => {
           <i className="fa-solid fa-forward-step"></i>
         </div>
       </div>
-
-      {/* <div className='prov-home'></div> */}
     </div>
   )
 }
