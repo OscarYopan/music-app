@@ -11,10 +11,10 @@ export const Home = () => {
         <h3>Music Name</h3>
         <h4>Artist Name</h4>
       </div>
-      <button>
+      <div className='music-controls'>
         <i className="fa-solid fa-play"></i>
         <i className="fa-solid fa-pause"></i>
-      </button>
+      </div>
       <TimeLine />
 
       {/* <div className='prov-home'></div> */}
