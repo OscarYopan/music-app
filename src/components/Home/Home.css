@@ -70,8 +70,22 @@ h4 {
   left: 0;
 } */
 
-.music-controls {
+.controls-container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.music-controls {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.fa-play {
+  font-size: 50px;
+  color: aqua;
 }

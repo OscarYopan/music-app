@@ -11,11 +11,17 @@ export const Home = () => {
         <h3>Music Name</h3>
         <h4>Artist Name</h4>
       </div>
-      <div className='music-controls'>
-        <i className="fa-solid fa-play"></i>
-        <i className="fa-solid fa-pause"></i>
-      </div>
+
       <TimeLine />
+
+      <div className='controls-container'>
+        <div className='music-controls'>
+          <i className="fa-solid fa-backward-step"></i>
+          <i className="fa-solid fa-play"></i>
+          {/* <i className="fa-solid fa-pause"></i> */}
+          <i className="fa-solid fa-forward-step"></i>
+        </div>
+      </div>
 
       {/* <div className='prov-home'></div> */}
     </div>
