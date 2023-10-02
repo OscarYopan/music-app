@@ -47,7 +47,7 @@ export const MusicList = () => {
           </div>
           <span className='music-time'>5:25</span>
         </li>    
-      </ul> */}
+      </ul> */}      
       <div className='prov-list'></div>
     </div>    
   )

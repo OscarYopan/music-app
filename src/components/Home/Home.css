@@ -45,17 +45,17 @@ h4 {
   right: 15px;
 }
 
-/* .home-container button i{
+.home-container button i{
   color: rgb(15, 72, 91);
-} */
+}
 
-/* .home-container button:hover {
+.home-container button:hover {
   transform: scale(1.1);
 }
 
 .home-container button:active {
   transform: scale(0.98);
-} */
+}
 
 .prov-home {
   background-color: aquamarine;
