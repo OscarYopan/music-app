@@ -29,7 +29,7 @@ function App() {
         <div className='head'>
           <div
             className='icon'
-            onClick={handleClickHome}
+            // onClick={handleClickHome}
             onMouseEnter={handleClickHome}
             onMouseLeave={handleClickHome}
           >
@@ -38,7 +38,7 @@ function App() {
 
           <div
             className='icon'
-            onClick={handleClickLib}
+            // onClick={handleClickLib}
             onMouseEnter={handleClickLib}
             onMouseLeave={handleClickLib}
           >
@@ -47,7 +47,7 @@ function App() {
 
           <div 
             className='icon'
-            onClick={handleClickSearch}
+            // onClick={handleClickSearch}
             onMouseEnter={handleClickSearch}
             onMouseLeave={handleClickSearch}
           >
