@@ -1,5 +1,4 @@
 import './App.css'
-import './components/Head/Head.css'
 import { useState } from 'react';
 import { Home } from './components/Home/Home.jsx'
 import { MusicList } from './components/MusicList/MusicList.jsx'
@@ -39,7 +38,7 @@ function App() {
 
           <div
             className='icon'
-            // onClick={handleClickLib}
+            onClick={handleClickLib}
             onMouseEnter={handleClickLib}
             onMouseLeave={handleClickLib}
           >
@@ -48,7 +47,7 @@ function App() {
 
           <div 
             className='icon'
-            // onClick={handleClickSearch}
+            onClick={handleClickSearch}
             onMouseEnter={handleClickSearch}
             onMouseLeave={handleClickSearch}
           >
