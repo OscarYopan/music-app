@@ -4,13 +4,10 @@ import { Home } from './components/Home/Home.jsx'
 import { MusicList } from './components/MusicList/MusicList.jsx'
 import { Controls } from './components/Controls/Controls.jsx'
 
-
-
 function App() {
   const [homeShow, setHomeShow] = useState(false);
   const [libShow, setLibtShow] = useState(false);
   const [searchShow, setSearchtShow] = useState(false);
-
 
   const handleClickHome = () => {
     setHomeShow(current => !current);
@@ -59,7 +56,6 @@ function App() {
         {libShow && <MusicList />}
         {searchShow && <Controls />}
 
-        
       </div>
     </>
   )

@@ -13,14 +13,6 @@
   border-radius: 10px;
 }
 
-h3 {
-  color: white;
-}
-
-h4 {
-  color: white;
-}
-
 .home-container button {
   height: 50px;
   width: 50px;
@@ -46,21 +38,6 @@ h4 {
 
 .home-container button:active {
   transform: scale(0.98);
-}
-
-.controls-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.music-controls {
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px 0;
 }
 
 .fa-play {
