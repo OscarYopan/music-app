@@ -3,7 +3,7 @@ import './MusicList.css'
 export const MusicList = () => {
   return (
     <div className='music-list'>
-      {/* <ul>
+      <ul>
         <li>
           <div className='music-pic'>
             <img src="https://akamai.sscdn.co/letras/360x360/albuns/3/e/5/0/59491441052487.jpg" alt="Album Cover" />
@@ -47,7 +47,7 @@ export const MusicList = () => {
           </div>
           <span className='music-time'>5:25</span>
         </li>    
-      </ul> */}      
+      </ul>     
       <div className='prov-list'></div>
     </div>    
   )
