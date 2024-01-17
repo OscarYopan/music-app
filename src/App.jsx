@@ -54,10 +54,6 @@ function App() {
             <i className="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
-
-        {/* <div className='prov-image'> 
-          See CSS
-        </div> */}
          
         {homeShow && <Home />}
         {libShow && <MusicList />}
