@@ -1,10 +1,8 @@
 import './Home.css'
-// import { TimeLine } from '../TimeLine/TimeLine'
 
 export const Home = () => {
   return (
     <div className='home-container'>
-      {/* <TimeLine /> */}
 
       <div className='controls-container'>
         {/* <div className='music-controls'>

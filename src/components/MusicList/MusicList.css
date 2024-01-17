@@ -7,43 +7,6 @@
   padding: 0  10px 20px 10px;
 }
 
-.music-list ul li {
-  background-color: blueviolet;
-  cursor: pointer;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style-type: none;
-  color: var(--gray);
-  margin-bottom: 5px;
-}
-
-.music-artist {
-  font-size: 10px;
-  font-weight: bold;
-}
-
-.music-title {
-  font-size: 12px;
-  width: 200px;
-}
-
-.music-pic img {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-  border-radius: 10px;
-}
-
-.music-info {
-  margin-right: 10px;
-}
-
-.music-time {
-  font-size: 12px;
-}
-
 .prov-list {
   background: url('https://images.unsplash.com/photo-1694803046426-36fcd9adce21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
   background-size: cover;
