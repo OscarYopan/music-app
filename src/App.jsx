@@ -30,7 +30,7 @@ function App() {
             onMouseEnter={handleClickHome}
             onMouseLeave={handleClickHome}
           >
-            <i className="fa-solid fa-house"></i>
+            <i className="fa-regular fa-circle-play"></i>
           </div>
 
           <div
@@ -39,7 +39,7 @@ function App() {
             onMouseEnter={handleClickLib}
             onMouseLeave={handleClickLib}
           >
-            <i className="fa-solid fa-book"></i>
+            <i className="fa-solid fa-headphones"></i>
           </div>
 
           <div 

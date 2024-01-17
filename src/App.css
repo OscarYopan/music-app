@@ -1,8 +1,11 @@
 .player-container {
+  background: url('https://images.unsplash.com/photo-1705321983916-fd3e82a3812f?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-color: var(--zaffre);
   height: 600px;
   width: 340px;
   max-width: 500px;
-  background-color: var(--zaffre);
   border: 4px black solid;
   border-radius: 10px;
   position: relative;
@@ -29,7 +32,7 @@
 }
 
 .head {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(58, 12, 163, 0.3);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -51,16 +54,17 @@
   width: 33.33%;
 }
 
+.head i {
+  font-size: 25px;
+  color: var(--rose);
+}
+
 .head .icon:hover {
   color: lightsalmon;
-  background-color: blueviolet;
+  background-color: var(--zaffre);
 }
 
 .head .icon:active {
   color: brown;
 }
 
-.head i {
-  font-size: 25px;
-  color: pink;
-}
